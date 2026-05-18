@@ -4,7 +4,7 @@ import amz from '../assets/amz.png'
 import shoe from '../assets/shoe.png'
 function Home() {
   return (
-    <div className="flex justify-between items-start w-full">
+    <div className="flex items-start w-full">
       <div className="left w-[45%] justify-between items-center px-30 pb-10 pt-16">
         <h1 className="w-[70%] ml-24 text-7xl font-black text-black uppercase font-[Comic Sans MS] font-semibold">
           YOUR FEET
@@ -38,8 +38,8 @@ function Home() {
           <img src={amz} alt="Amazon" className="h-10 object-contain" />
         </div>
       </div>
-      <div className="right flex justify-between items-center px-30 pb-10 pt-16 mr-40 mt-7">
-        <img src={shoe} className="w-[480px] object-contain " alt="" />
+      <div className="right flex items-center px-10 pb-10 pt-16 mt-7">
+        <img src={shoe} className="w-[580px] object-contain" alt="shoe image" />
       </div>
     </div>
   );
